@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block body %}
+	<h2>{{ _("Register") }}</h2>
+	<form action="{{ url_for('register') }}" method=post>
+	<dl>
+		<dt>{{ _("Username") }}</dt>
+		<dd><input type=text name=username></dd>
+		<dt>{{ _("Password") }}</dt>
+		<dd><input type=password name=password></dd>
+		<dt>{{ _("Team") }}</dt>
+		<dd>{{ _("For example: CTH - Chuyen Tong Hop") }}</dd>
+		<dd><input type=text name=team></dd>
+		<dt>{{ _("Visibility") }}</dt>
+		<dd><input type=radio name=hidden value=0 checked>{{ _('Visible') }}</dd>
+		<dd><input type=radio name=hidden value=1>{{ _('Hidden') }}</dd>
+		<dt><input type=submit value="{{ _('Register') }}"></dt>
+	</dl>
+	</form>
+	<h2>{{ _("See also") }}</h2>
+	<ul>
+		<li><a href="{{ link_to_login }}">{{ _("Login") }}</a></li>
+		<li><a href="{{ link_to_ranking }}">{{ _("Ranking") }}</a></li>
+	</ul>
+{% endblock %}

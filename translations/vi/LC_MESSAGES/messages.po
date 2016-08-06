@@ -1,0 +1,64 @@
+# Vietnamese translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2016-08-06 23:29+0800\n"
+"PO-Revision-Date: 2016-08-06 23:30+0800\n"
+"Last-Translator: \n"
+"Language: vi\n"
+"Language-Team: vi <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: templates/show_home_page.html:3 templates/show_home_page.html:16
+msgid "Register"
+msgstr "Đăng kí"
+
+#: templates/show_home_page.html:6
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+#: templates/show_home_page.html:8
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: templates/show_home_page.html:10
+msgid "Team"
+msgstr "Đội tuyển"
+
+#: templates/show_home_page.html:11
+msgid "For example: CTH - Chuyen Tong Hop"
+msgstr "Ví dụ: CTH - Chuyên Tổng Hợp"
+
+#: templates/show_home_page.html:13
+msgid "Visibility"
+msgstr "Hiển thị trên bảng điểm"
+
+#: templates/show_home_page.html:14
+msgid "Visible"
+msgstr "Hiện"
+
+#: templates/show_home_page.html:15
+msgid "Hidden"
+msgstr "Ẩn"
+
+#: templates/show_home_page.html:19
+msgid "See also"
+msgstr "Xem thêm"
+
+#: templates/show_home_page.html:21
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: templates/show_home_page.html:22
+msgid "Ranking"
+msgstr "Bảng điểm"

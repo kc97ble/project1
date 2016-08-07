@@ -2,14 +2,17 @@
 {% block body %}
 	<form action="{{ url_for('edit') }}" method=post>
 	<dl>
-		<dt>Contest title:</dt>
+		<dt>{{ _("Contest title") }}</dt>
 		<dd><input type=text name=contest_title value="{{ contest_title }}"></dd>
-		<dt>Contest details:</dt>
+		<dt>{{ _("Contest details") }}</dt>
 		<dd><textarea name=contest_details>{{ contest_details }}</textarea></dd>
-		<dt>Link to login:</dt>
+		<dt>{{ _("Link to login") }}</dt>
 		<dd><input type=text name=link_to_login value="{{ link_to_login }}"></dd>
-		<dt>Link to ranking:</dt>
+		<dt>{{ _("Link to ranking") }}</dt>
 		<dd><input type=text name=link_to_ranking value="{{ link_to_ranking }}"></dd>
+		<dt>{{ _("Registration availability") }}</dt>
+		<dd><input type=radio name=closed value=0 {{ "checked" if not closed }}>{{ _('Opening') }}</dd>
+		<dd><input type=radio name=closed value=1 {{ "checked" if closed }}>{{ _('Closed') }}</dd>
 		<dt><input type=submit value=Save></dt>
 	</dl>
 	</form>

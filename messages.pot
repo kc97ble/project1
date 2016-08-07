@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-08-06 23:29+0800\n"
+"POT-Creation-Date: 2016-08-07 10:33+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,47 +17,85 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: templates/show_home_page.html:3 templates/show_home_page.html:16
+#: templates/edit.html:5
+msgid "Contest title"
+msgstr ""
+
+#: templates/edit.html:7
+msgid "Contest details"
+msgstr ""
+
+#: templates/edit.html:9
+msgid "Link to login"
+msgstr ""
+
+#: templates/edit.html:11
+msgid "Link to ranking"
+msgstr ""
+
+#: templates/edit.html:13
+msgid "Registration availability"
+msgstr ""
+
+#: templates/edit.html:14
+msgid "Opening"
+msgstr ""
+
+#: templates/edit.html:15
+msgid "Closed"
+msgstr ""
+
+#: templates/show_home_page.html:3 templates/show_home_page.html:17
 msgid "Register"
 msgstr ""
 
-#: templates/show_home_page.html:6
+#: templates/show_home_page.html:7
 msgid "Username"
 msgstr ""
 
-#: templates/show_home_page.html:8
+#: templates/show_home_page.html:9
 msgid "Password"
 msgstr ""
 
-#: templates/show_home_page.html:10
+#: templates/show_home_page.html:11
 msgid "Team"
 msgstr ""
 
-#: templates/show_home_page.html:11
+#: templates/show_home_page.html:12
 msgid "For example: CTH - Chuyen Tong Hop"
 msgstr ""
 
-#: templates/show_home_page.html:13
+#: templates/show_home_page.html:14
 msgid "Visibility"
 msgstr ""
 
-#: templates/show_home_page.html:14
+#: templates/show_home_page.html:15
 msgid "Visible"
 msgstr ""
 
-#: templates/show_home_page.html:15
+#: templates/show_home_page.html:16
 msgid "Hidden"
 msgstr ""
 
-#: templates/show_home_page.html:19
+#: templates/show_home_page.html:21
+msgid ""
+"Registration has been closed. Contact administrator via Facebook page for"
+" assistance."
+msgstr ""
+
+#: templates/show_home_page.html:24
 msgid "See also"
 msgstr ""
 
-#: templates/show_home_page.html:21
+#: templates/show_home_page.html:26
 msgid "Login"
 msgstr ""
 
-#: templates/show_home_page.html:22
+#: templates/show_home_page.html:27
 msgid "Ranking"
+msgstr ""
+
+#: templates/show_home_page.html:29
+msgid "Note: Login page and ranking are only available when the contest opens"
 msgstr ""
 

@@ -5,7 +5,7 @@ import sqlite3
 import subprocess
 import click
 from flask import *
-from flask.ext.babel import Babel
+from flask_babel import Babel
 
 app = Flask(__name__)
 babel = Babel(app)
@@ -66,7 +66,6 @@ def edit():
 	if request.method=='GET':
 		return render_template('edit.html', **config)
 	else:
-		print('Hello')
 		for key in config.keys():
 			if key in request.form:
 				g.db.execute('update config set {}=?'.format(key), [request.form[key]])

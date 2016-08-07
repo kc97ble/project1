@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-08-06 23:29+0800\n"
-"PO-Revision-Date: 2016-08-06 23:30+0800\n"
+"POT-Creation-Date: 2016-08-07 10:33+0800\n"
+"PO-Revision-Date: 2016-08-07 10:35+0800\n"
 "Last-Translator: \n"
 "Language: vi\n"
 "Language-Team: vi <LL@li.org>\n"
@@ -19,46 +19,86 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 "X-Generator: Poedit 1.8.7.1\n"
 
-#: templates/show_home_page.html:3 templates/show_home_page.html:16
+#: templates/edit.html:5
+msgid "Contest title"
+msgstr "Tên kì thi"
+
+#: templates/edit.html:7
+msgid "Contest details"
+msgstr "Chi tiết kì thi"
+
+#: templates/edit.html:9
+msgid "Link to login"
+msgstr "Link đăng nhập"
+
+#: templates/edit.html:11
+msgid "Link to ranking"
+msgstr "Link bảng điểm"
+
+#: templates/edit.html:13
+msgid "Registration availability"
+msgstr "Trạng thái trang đăng kí"
+
+#: templates/edit.html:14
+msgid "Opening"
+msgstr "Mở"
+
+#: templates/edit.html:15
+msgid "Closed"
+msgstr "Đóng"
+
+#: templates/show_home_page.html:3 templates/show_home_page.html:17
 msgid "Register"
 msgstr "Đăng kí"
 
-#: templates/show_home_page.html:6
+#: templates/show_home_page.html:7
 msgid "Username"
 msgstr "Tên đăng nhập"
 
-#: templates/show_home_page.html:8
+#: templates/show_home_page.html:9
 msgid "Password"
 msgstr "Mật khẩu"
 
-#: templates/show_home_page.html:10
+#: templates/show_home_page.html:11
 msgid "Team"
 msgstr "Đội tuyển"
 
-#: templates/show_home_page.html:11
+#: templates/show_home_page.html:12
 msgid "For example: CTH - Chuyen Tong Hop"
 msgstr "Ví dụ: CTH - Chuyên Tổng Hợp"
 
-#: templates/show_home_page.html:13
+#: templates/show_home_page.html:14
 msgid "Visibility"
 msgstr "Hiển thị trên bảng điểm"
 
-#: templates/show_home_page.html:14
+#: templates/show_home_page.html:15
 msgid "Visible"
 msgstr "Hiện"
 
-#: templates/show_home_page.html:15
+#: templates/show_home_page.html:16
 msgid "Hidden"
 msgstr "Ẩn"
 
-#: templates/show_home_page.html:19
+#: templates/show_home_page.html:21
+msgid ""
+"Registration has been closed. Contact administrator via Facebook page for "
+"assistance."
+msgstr ""
+"Trang đăng kí đã đóng. Liên hệ ban tổ chức qua Facebook page để được giúp "
+"đỡ."
+
+#: templates/show_home_page.html:24
 msgid "See also"
 msgstr "Xem thêm"
 
-#: templates/show_home_page.html:21
+#: templates/show_home_page.html:26
 msgid "Login"
 msgstr "Đăng nhập"
 
-#: templates/show_home_page.html:22
+#: templates/show_home_page.html:27
 msgid "Ranking"
 msgstr "Bảng điểm"
+
+#: templates/show_home_page.html:29
+msgid "Note: Login page and ranking are only available when the contest opens"
+msgstr "Lưu ý: Trang đăng nhập và bảng điểm chỉ được mở khi kì thi bắt đầu."

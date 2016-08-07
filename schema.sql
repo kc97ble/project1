@@ -13,7 +13,8 @@ create table config (
 	contest_title text,
 	contest_details text,
 	link_to_login text,
-	link_to_ranking text
+	link_to_ranking text,
+	closed boolean
 );
 
-insert into config values (0, '$contest_title', '$contest_details', '$link_to_login', '$link_to_ranking');
+insert into config values (0, '$contest_title', '$contest_details', '$link_to_login', '$link_to_ranking', 0);

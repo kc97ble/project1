@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-08-07 10:33+0800\n"
-"PO-Revision-Date: 2016-08-07 10:35+0800\n"
+"POT-Creation-Date: 2016-08-09 14:03+0800\n"
+"PO-Revision-Date: 2016-08-09 14:06+0800\n"
 "Last-Translator: \n"
 "Language: vi\n"
 "Language-Team: vi <LL@li.org>\n"
@@ -47,39 +47,39 @@ msgstr "Mở"
 msgid "Closed"
 msgstr "Đóng"
 
-#: templates/show_home_page.html:3 templates/show_home_page.html:17
+#: templates/home.html:3 templates/home.html:17
 msgid "Register"
 msgstr "Đăng kí"
 
-#: templates/show_home_page.html:7
+#: templates/home.html:7
 msgid "Username"
 msgstr "Tên đăng nhập"
 
-#: templates/show_home_page.html:9
+#: templates/home.html:9
 msgid "Password"
 msgstr "Mật khẩu"
 
-#: templates/show_home_page.html:11
+#: templates/home.html:11
 msgid "Team"
 msgstr "Đội tuyển"
 
-#: templates/show_home_page.html:12
+#: templates/home.html:12
 msgid "For example: CTH - Chuyen Tong Hop"
 msgstr "Ví dụ: CTH - Chuyên Tổng Hợp"
 
-#: templates/show_home_page.html:14
+#: templates/home.html:14
 msgid "Visibility"
 msgstr "Hiển thị trên bảng điểm"
 
-#: templates/show_home_page.html:15
+#: templates/home.html:15
 msgid "Visible"
 msgstr "Hiện"
 
-#: templates/show_home_page.html:16
+#: templates/home.html:16
 msgid "Hidden"
 msgstr "Ẩn"
 
-#: templates/show_home_page.html:21
+#: templates/home.html:21
 msgid ""
 "Registration has been closed. Contact administrator via Facebook page for "
 "assistance."
@@ -87,18 +87,62 @@ msgstr ""
 "Trang đăng kí đã đóng. Liên hệ ban tổ chức qua Facebook page để được giúp "
 "đỡ."
 
-#: templates/show_home_page.html:24
+#: templates/home.html:24
 msgid "See also"
 msgstr "Xem thêm"
 
-#: templates/show_home_page.html:26
+#: templates/home.html:26
 msgid "Login"
 msgstr "Đăng nhập"
 
-#: templates/show_home_page.html:27
+#: templates/home.html:27
 msgid "Ranking"
 msgstr "Bảng điểm"
 
-#: templates/show_home_page.html:29
+#: templates/home.html:28 templates/reports.html:3
+msgid "Reports"
+msgstr "Đánh giá"
+
+#: templates/home.html:30
 msgid "Note: Login page and ranking are only available when the contest opens"
 msgstr "Lưu ý: Trang đăng nhập và bảng điểm chỉ được mở khi kì thi bắt đầu."
+
+#: templates/reports.html:6
+msgid "Rate"
+msgstr "Đánh giá"
+
+#: templates/reports.html:7
+msgid "Very bad"
+msgstr "Rất tệ"
+
+#: templates/reports.html:8
+msgid "Bad"
+msgstr "Tệ"
+
+#: templates/reports.html:9
+msgid "Normal"
+msgstr "Bình thường"
+
+#: templates/reports.html:10
+msgid "Good"
+msgstr "Tốt"
+
+#: templates/reports.html:11
+msgid "Very good"
+msgstr "Rất tốt"
+
+#: templates/reports.html:12
+msgid "Comment"
+msgstr "Nhận xét"
+
+#: templates/reports.html:14
+msgid "Details (optional)"
+msgstr "Chi tiết"
+
+#: templates/reports.html:20
+msgid "Previous reports"
+msgstr "Các đánh giá trước"
+
+#: templates/reports.html:28
+msgid "No reports yet"
+msgstr "Chưa có đánh giá nào"

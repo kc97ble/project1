@@ -2,8 +2,8 @@
 <title>{{ contest_title }}</title>
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
 <div class=page>
-  <h1>{{ contest_title }}</h1>
-  {{ contest_details }}
+  <h1><a href={{ url_for('home') }}>{{ contest_title }}</a></h1>
+  <p>{{ contest_details }}</p>
   {% for message in get_flashed_messages() %}
     <div class=flash>{{ message }}</div>
   {% endfor %}

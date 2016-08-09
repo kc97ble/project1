@@ -41,7 +41,7 @@ def init_db():
 def addusers(contest_id):
 	before_request()
 	for row in g.db.execute('select username, password, team from entries'):
-		exit_status = subprocess.call(['cmsAddUser', '-c', 
+		exit_status = subprocess.call(['echo', '-c', 
 			str(contest_id), '-p', row[1], row[0], row[2], row[0]])
 		print(exit_status)
 	teardown_request(None)
@@ -50,4 +50,4 @@ def addusers(contest_id):
 def get_locale():
 	return 'vi'
 
-import route
+import project1.route

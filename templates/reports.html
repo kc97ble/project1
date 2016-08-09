@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block body %}
+	<h2>{{ _('Reports') }}</h2>
+	<form action="{{ url_for('reports') }}" method=post>
+	<dl>
+		<dt>{{ _('Rate') }}</dt>
+		<dd><input type=radio name=star value=1>★☆☆☆☆ {{ _('Very bad') }}</dd>
+		<dd><input type=radio name=star value=2>★★☆☆☆ {{ _('Bad') }}</dd>
+		<dd><input type=radio name=star value=3 checked>★★★☆☆ {{ _('Normal') }}</dd>
+		<dd><input type=radio name=star value=4>★★★★☆ {{ _('Good') }}</dd>
+		<dd><input type=radio name=star value=5>★★★★★ {{ _('Very good') }}</dd>
+		<dt>{{ _('Comment') }}</dt>
+		<dd><input type=text name=report></dd>
+		<dt>{{ _('Details (optional)') }}</dt>
+		<dd><textarea name=details></textarea></dd>
+		<dt><input type=submit value=Report></dt>
+	</dl>
+	</form>
+	
+	<h2>{{ _('Previous reports') }}</h2>
+	<ul>
+	{% for row in reports %}
+		<li>{{ row.star * '★' + (5-row.star) * '☆' }} {{ row.report }}</li>
+		{% if row.details %}
+		<div class=report-details>{{ row.details }}</div>
+		{% endif %}
+	{% else %}
+		<p>{{ _('No reports yet') }}</p>
+	{% endfor %}
+	</ul>
+{% endblock %}

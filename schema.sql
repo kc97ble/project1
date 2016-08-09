@@ -18,3 +18,11 @@ create table config (
 );
 
 insert into config values (0, '$contest_title', '$contest_details', '$link_to_login', '$link_to_ranking', 0);
+
+drop table if exists reports;
+create table reports (
+	id integer primary key autoincrement,
+	star integer,
+	report text,
+	details text
+);
